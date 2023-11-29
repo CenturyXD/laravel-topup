@@ -26,20 +26,6 @@
                         </div>
 
                         <div class="row mb-3">
-                            <label for="user" class="col-md-4 col-form-label text-md-end">{{ __('User Name') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="user" type="user" class="form-control @error('user') is-invalid @enderror" name="user" value="{{ old('user') }}" required autocomplete="user" autofocus>
-
-                                @error('user')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="row mb-3">
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
